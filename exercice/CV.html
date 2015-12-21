@@ -1,5 +1,11 @@
+
+<!--Voici le code de mon cv , jusqu'a présent je n'es mis de commentaires volontairement! -->
 <!DOCTYPE html>
+
+<!--Language-->
 <html lang="fr">
+    
+<!--Debut du head-->   
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +13,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>CV</title>
 
-    <!-- Bootstrap -->
+    <!-- Bootstrap et le css du cv -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     
@@ -15,6 +21,8 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="js/jquery.easing.min.js"></script> <!--lien vers le fichier jquery pour l'effet "hover"-->
     <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+
+<!--JAVASCRIPT POUR LE PORTFOLIO-->
      <script type="text/javascript">
     $(function () {
         
@@ -56,15 +64,20 @@
         
         
     }); 
+    
     </script><!--lien vers fichier JQuery pour l'effet filtre-->    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <!--JAVASCRIPT POUR LE PORTFOLIO-->
  </head>
-    
+<!--FIN DU HEAD-->
+
+<!--DEBUT DE BODY-->
   <body data-spy="scroll" data-target=".navbar">
  
+<!--BARRE DE MENU-->
   <div class="container-fluid">
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
@@ -95,8 +108,9 @@
             </div>
         </nav>
         <section class="jumbotron" id="haut">
-            
-                   
+<!--FIN DE LA BARRE DE MENU-->   
+
+<!--ENTETE DE MON CV-->                   
 <header class="container-fluid">
     
         <div class="row">
@@ -120,9 +134,9 @@
         
 </div>
       
-
+<!--FIN DE L ENTETE-->
  
-       
+<!--TOUTES LES INFORMATIONS DE MON PROFIL-->       
 <main>
         <section class="jumbotron" id="Expérience">
             <div class="container-fluid">
@@ -131,7 +145,7 @@
             
             </div>
             
-            
+<!--CONTENU QUI REPRESENTE MON EXPERIENCE, PARCOURS-->           
  <div class="container-fluid">
     <div class="row">
         <div class="col-md-4">
@@ -193,16 +207,18 @@
 «Fromagerie Rosnes»</p>
               
       
-       </br>
+               </br>
+            </div>
+        </div>
     </div>
-    </div>
-           
-    </div>
-   </div>
-    </div>
-</main>
+  </div>
+</div>
+
+
           </section>  
-         
+<!--FIN DU CONTENU QUI REPRESENTE MON EXPERIENCE, PARCOURS-->     
+
+<!--DEBUT DU PORTFOLIO-->
          
          <section class="jumbotron" id="portfolio">
             <div class="container-fluid">
@@ -400,10 +416,13 @@
         </div><!-- container -->
 
               </section>   
+<!--FIN DU PORTFOLIO-->              
                  
+   </main>          
+<!--FIN DE TOUTES LES INFORMATIONS DE MON PROFIL-->       
+
+<!--DEBUT DU BAS DE PAGE FOOTER-->
              
-             
-         
             <section class="jumbotron" id="contact">
             <div class="container-fluid">
                 <h2 class="well">Contact:</h2>
@@ -425,6 +444,7 @@
             </div>
              <div class="col-md-6">
                  <div class="formulaire">
+                    <fieldset><legend><h2>Me contacter avec ce formulaire.</h2></legend>
                      <form action="mailto:jt86@orange.fr" method="post" name="contact">
                         <p>Votre prénom: 
                         <input name="votre nom"><p>
@@ -433,11 +453,13 @@
                         <p>Votre mail:
                         <input type="mail" name="mail" placeholder="ex:mail@orange.fr">
                         <p>Votre message:<br>
-                        <textarea name="message" rows="2" cols="30"></textarea></p>
+                        <textarea name="message" rows="3" cols="30"></textarea></p>
                         <p>
-                        <input type="submit" value="envoyer">
+                        <center><input type="submit" value="Envoyer">
+                        <input type="reset" value="Effacer" ></center>
                         </p>
                      </form>
+                     </fieldset>
                  </div>
             
             </div>
@@ -449,7 +471,7 @@
    
 
     </footer>
-
+<!--FIN DU BAS DE PAGE FOOTER-->
    
     
     <!-- Include all compiled plugins (below), or include individual files as needed -->
